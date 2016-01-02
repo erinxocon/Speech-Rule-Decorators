@@ -215,3 +215,4 @@ env/
 *.pyc
 speech_listener/speech_listener.pyproj
 speech_listener.sln
+speech_listener/src/fwi/*
