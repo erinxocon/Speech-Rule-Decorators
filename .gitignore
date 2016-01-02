@@ -210,3 +210,8 @@ FakesAssemblies/
 GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
+
+env/
+*.pyc
+speech_listener/speech_listener.pyproj
+speech_listener.sln
