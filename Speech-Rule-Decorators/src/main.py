@@ -1,14 +1,14 @@
-from SpeechRuleDecorator import SpeechRuleDecorator
+﻿import SpeechRuleDecorator
 from time import sleep
 
-srd = SpeechRuleDecorator()
+rules = SpeechRuleDecorator.SpeechRules()
 
-@srd.onrecognize('test')
+@rules.onrecognize('test')
 def main():
     print('foo')
 
 if __name__ == '__main__':
-    stop = srd.listen()
+    stop = rules.listen_in_background()
     try:
         while True:
             sleep(5)

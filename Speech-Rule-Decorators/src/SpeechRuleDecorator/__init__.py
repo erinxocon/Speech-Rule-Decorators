@@ -1,1 +1,1 @@
-from .decorators import SpeechRuleDecorator
+﻿from .speech_rules import SpeechRules
