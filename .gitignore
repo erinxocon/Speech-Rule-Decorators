@@ -216,3 +216,5 @@ env/
 speech_listener/speech_listener.pyproj
 speech_listener.sln
 speech_listener/src/fwi/*
+Speech-Rule-Decorators/src/fwi/*
+Speech-Rule-Decorators/Speech-Rule-Decorators.pyproj
