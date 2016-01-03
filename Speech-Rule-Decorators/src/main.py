@@ -2,10 +2,11 @@
 from time import sleep
 
 rules = SpeechRuleDecorator.SpeechRules()
+rules.debug = True
 
-@rules.onrecognize('test')
-def main():
-    print('foo')
+@rules.onrecognize('I like {animal}')
+def main(kwargs):
+    print('foo', kwargs)
 
 if __name__ == '__main__':
     stop = rules.listen_in_background()
